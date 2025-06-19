@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d240e980-8a97-4fca-8bc3-b3889960da90" name="Changes" comment="Add some starting files for video creation and organization.">
-      <change afterPath="$PROJECT_DIR$/ZeroDivision/01IntroScript.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZeroDivision/02LogicScript.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ZeroDivision/04Script.md" afterDir="false" />
+    <list default="true" id="d240e980-8a97-4fca-8bc3-b3889960da90" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZeroDivision/Script.md" beforeDir="false" afterPath="$PROJECT_DIR$/ZeroDivision/03ProofScript.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,12 +95,21 @@
       <option name="project" value="LOCAL" />
       <updated>1745517145665</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="I created a rough draft of the script for the zero division video.">
+      <option name="closed" value="true" />
+      <created>1745522034922</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1745522034922</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Full remaster of Math videos in pycharm projects." />
     <MESSAGE value="Add some starting files for video creation and organization." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add some starting files for video creation and organization." />
+    <MESSAGE value="I created a rough draft of the script for the zero division video." />
+    <option name="LAST_COMMIT_MESSAGE" value="I created a rough draft of the script for the zero division video." />
   </component>
 </project>

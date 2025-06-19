@@ -36,7 +36,7 @@ class FormatedScene(Scene):
         involved before the construct method is called.
         """
         script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
-        rel_path = "..//media/images/BackGround2.jpg"
+        rel_path = "media/images/BackGround2.jpg"
         abs_file_path = os.path.join(script_dir, rel_path)
 
         background = ImageMobject(abs_file_path)
