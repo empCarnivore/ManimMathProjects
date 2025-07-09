@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d240e980-8a97-4fca-8bc3-b3889960da90" name="Changes" comment="New Project Derivative video. Start animation with  animatable plot of zoomed in f(x)=x**2 at x=.5.">
+    <list default="true" id="d240e980-8a97-4fca-8bc3-b3889960da90" name="Changes" comment="Zoom Into Graph.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Derivative/IntoToDerivativesScene.py" beforeDir="false" afterPath="$PROJECT_DIR$/Derivative/IntoToDerivativesScene.py" afterDir="false" />
     </list>
@@ -142,7 +142,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750303209745</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Zoom Into Graph.">
+      <option name="closed" value="true" />
+      <created>1751914463362</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1751914463362</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -150,6 +158,7 @@
     <MESSAGE value="Add some starting files for video creation and organization." />
     <MESSAGE value="I created a rough draft of the script for the zero division video." />
     <MESSAGE value="New Project Derivative video. Start animation with  animatable plot of zoomed in f(x)=x**2 at x=.5." />
-    <option name="LAST_COMMIT_MESSAGE" value="New Project Derivative video. Start animation with  animatable plot of zoomed in f(x)=x**2 at x=.5." />
+    <MESSAGE value="Zoom Into Graph." />
+    <option name="LAST_COMMIT_MESSAGE" value="Zoom Into Graph." />
   </component>
 </project>
