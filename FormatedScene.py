@@ -3,13 +3,20 @@ from manim import *
 import os
 import numpy
 
-
 def lambda_circle(n):
     """
         lambda_circle(2)(t)=(cos(2*t),sin(2*t))
     """
     return lambda t: (numpy.cos(n * t), numpy.sin(n * t), 0)
 
+def deep_set_color_by_tex(your_object,text,your_color):
+    if isinstance(your_object,MathTex):
+        your_MathTex=your_object
+        your_MathTex.set_color_by_tex(text,your_color)
+    elif isinstance(your_object,VGroup):
+        your_VGoup = your_object
+        for object_of_your_VGroup in your_VGoup:
+            deep_set_color_by_tex(object_of_your_VGroup,text,your_color)
 
 class FormatedScene(Scene):
     def write_and_fade(self, *stuff, run_time=5, wait_time=10, group_transformations=(), **kwargs):
