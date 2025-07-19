@@ -47,8 +47,6 @@ class IntroToDerivativesScene(FormatedScene):
             tips=False,
         )
 
-        # axes.shift(DOWN)
-
         # endregion
 
         # region curve
@@ -159,7 +157,7 @@ class IntroToDerivativesScene(FormatedScene):
 
         # region math3 construct
         math3 = VGroup()
-        math3 += MathTex(r"\text{If } {{\Delta x}} \text{ is arbitrarily small, then } {{\Delta x}}={{dx}}")
+        math3 += MathTex(r"\text{Given } {{dx}} \text{ is infinitely small, then: }")
         # endregion
 
         mathvg = VGroup(*math1, *math2, *math3)
@@ -206,7 +204,8 @@ class IntroToDerivativesScene(FormatedScene):
 
         self.play(zoom_tracker.animate.set_value(1), run_time=2)
 
-        self.play(math1[1].animate.next_to(math3, DOWN))
+        self.play(math1[1].animate.next_to(math3, DOWN),axes.animate.shift(DOWN/2))
+
 
         self.play(Write(math3[0]))
 
