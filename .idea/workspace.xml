@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d240e980-8a97-4fca-8bc3-b3889960da90" name="Changes" comment="Add some text describing graph.">
-      <change afterPath="$PROJECT_DIR$/Derivative/DerivativesAlgebraic.py" afterDir="false" />
+    <list default="true" id="d240e980-8a97-4fca-8bc3-b3889960da90" name="Changes" comment="Finish part 1 of intro to derivatives, and start new section">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Derivative/IntoToDerivativesScene.py" beforeDir="false" afterPath="$PROJECT_DIR$/Derivative/IntoToDerivativesScene.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Derivative/DerivativesAlgebraic.py" beforeDir="false" afterPath="$PROJECT_DIR$/Derivative/DerivativesAlgebraic.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +159,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752026673017</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Finish part 1 of intro to derivatives, and start new section">
+      <option name="closed" value="true" />
+      <created>1752896108828</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1752896108828</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -170,7 +177,8 @@
     <MESSAGE value="New Project Derivative video. Start animation with  animatable plot of zoomed in f(x)=x**2 at x=.5." />
     <MESSAGE value="Zoom Into Graph." />
     <MESSAGE value="Add some text describing graph." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add some text describing graph." />
+    <MESSAGE value="Finish part 1 of intro to derivatives, and start new section" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish part 1 of intro to derivatives, and start new section" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
