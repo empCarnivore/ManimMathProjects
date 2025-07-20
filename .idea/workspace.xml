@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d240e980-8a97-4fca-8bc3-b3889960da90" name="Changes" comment="part 2 first to equation sequences in code">
+    <list default="true" id="d240e980-8a97-4fca-8bc3-b3889960da90" name="Changes" comment="Start section 3 advanced derivatives">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Derivative/DerivativesAlgebraic.py" beforeDir="false" afterPath="$PROJECT_DIR$/Derivative/DerivativesAlgebraic.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,15 +43,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.DerivativesAlgebraic.executor": "Run",
-    "Python.IntoToDerivativesScene.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.DerivativesAlgebraic.executor&quot;: &quot;Run&quot;,
+    &quot;Python.IntoToDerivativesScene.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\angel\PycharmProjects\ManimMathProjects\Derivative" />
@@ -199,7 +198,31 @@
       <option name="project" value="LOCAL" />
       <updated>1752897842797</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="part 3 product rule and chain rule fully animated">
+      <option name="closed" value="true" />
+      <created>1752968753527</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1752968753527</updated>
+    </task>
+    <task id="LOCAL-00011" summary="part 2 product rule and chain rule fully animated">
+      <option name="closed" value="true" />
+      <created>1752968905083</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1752968905083</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Start section 3 advanced derivatives">
+      <option name="closed" value="true" />
+      <created>1752968941452</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1752968941452</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -211,6 +234,9 @@
     <MESSAGE value="Add some text describing graph." />
     <MESSAGE value="Finish part 1 of intro to derivatives, and start new section" />
     <MESSAGE value="part 2 first to equation sequences in code" />
-    <option name="LAST_COMMIT_MESSAGE" value="part 2 first to equation sequences in code" />
+    <MESSAGE value="part 3 product rule and chain rule fully animated" />
+    <MESSAGE value="part 2 product rule and chain rule fully animated" />
+    <MESSAGE value="Start section 3 advanced derivatives" />
+    <option name="LAST_COMMIT_MESSAGE" value="Start section 3 advanced derivatives" />
   </component>
 </project>
