@@ -18,7 +18,7 @@ class DerivativesAlgebraic(FormatedScene):
         # region construction
         title1 = Title("The Product Rule")
         math1 = VGroup()
-        math1 += MathTex(r"{{y(x+h)}} = {{h}}{{y'(x)}}")
+        math1 += MathTex(r"{{y(x+h)}} = {{y(x)}} + {{h}}{{y'(x)}}")
 
         math2 = VGroup()
         math2 += MathTex(r"{{y(x+h)}}={{f(x+h)}}{{g(x+h)}}")
@@ -37,6 +37,7 @@ class DerivativesAlgebraic(FormatedScene):
         deep_set_color_by_tex(mathvg, r"f(x+h)", Y1_COLOR)
         deep_set_color_by_tex(mathvg, r"g(x+h)", Y1_COLOR)
         deep_set_color_by_tex(mathvg, r"g(x)", Y0_COLOR)
+        deep_set_color_by_tex(mathvg, r"y(x)", Y0_COLOR)
         deep_set_color_by_tex(mathvg, r"f(x)", Y0_COLOR)
         deep_set_color_by_tex(mathvg,"f'(x)g(x)+f(x)g'(x)", WHITE)
 
@@ -55,10 +56,10 @@ class DerivativesAlgebraic(FormatedScene):
         self.play(TransformMatchingTex(math2[0],math2[1]))
         self.play(TransformMatchingTex(math2[1], math2[2]))
 
-        self.play(Circumscribe(math1[0][2],color=DX_COLOR))
+        self.play(Circumscribe(math1[0][4],color=DX_COLOR))
         self.play(Circumscribe(math2[2][5],color=DX_COLOR))
         #self.play(math1[0][2:4].animate.shift(2*DOWN))
-        self.play(Circumscribe(math1[0][2:4], color=DY_COLOR))
+        self.play(Circumscribe(math1[0][4:6], color=DY_COLOR))
         self.play(Circumscribe(math2[2][5:7], color=DY_COLOR))
 
         self.play(FadeIn(math3[0]))
@@ -110,9 +111,9 @@ class DerivativesAlgebraic(FormatedScene):
         self.play(TransformMatchingTex(math4[1], math4[2]))
         self.play(TransformMatchingTex(math4[2], math4[3]))
 
-        self.play(Circumscribe(math1[0][2], color=DX_COLOR))
+        self.play(Circumscribe(math1[0][4], color=DX_COLOR))
         self.play(Circumscribe(math4[3][4], color=DX_COLOR))
-        self.play(Circumscribe(math1[0][2:4], color=DY_COLOR))
+        self.play(Circumscribe(math1[0][4:6], color=DY_COLOR))
         self.play(Circumscribe(math4[3][4:6],color=DY_COLOR))
 
         self.play(Write(math5[0]))
