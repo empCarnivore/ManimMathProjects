@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d240e980-8a97-4fca-8bc3-b3889960da90" name="Changes" comment="Section 3 equations down">
+    <list default="true" id="d240e980-8a97-4fca-8bc3-b3889960da90" name="Changes" comment="Section 3 animations done. Plan to redo or rethink animation structure. To equation then highlight over highlight then equation.">
+      <change afterPath="$PROJECT_DIR$/Derivative/DerivativeLieAlgebra.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Derivative/AdvancedDerivativesAlgebra.py" beforeDir="false" afterPath="$PROJECT_DIR$/Derivative/AdvancedDerivativesAlgebra.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -271,7 +271,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753052701883</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Section 3 animations done. Plan to redo or rethink animation structure. To equation then highlight over highlight then equation.">
+      <option name="closed" value="true" />
+      <created>1753320859432</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1753320859432</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -289,7 +297,8 @@
     <MESSAGE value="Change f-&gt;y, f_a-&gt;f, and f_b-&gt;g" />
     <MESSAGE value="Fix incorrect equation" />
     <MESSAGE value="Section 3 equations down" />
-    <option name="LAST_COMMIT_MESSAGE" value="Section 3 equations down" />
+    <MESSAGE value="Section 3 animations done. Plan to redo or rethink animation structure. To equation then highlight over highlight then equation." />
+    <option name="LAST_COMMIT_MESSAGE" value="Section 3 animations done. Plan to redo or rethink animation structure. To equation then highlight over highlight then equation." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
