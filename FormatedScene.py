@@ -1,4 +1,6 @@
 # Graphics and Animation
+import copy
+
 from manim import *
 import os
 import numpy
@@ -19,6 +21,39 @@ def deep_set_color_by_tex(your_object,text,your_color):
             deep_set_color_by_tex(object_of_your_VGroup,text,your_color)
 
 class FormatedScene(Scene):
+
+    def transform_arranged_group_by_matching_index(self,mobject_from: VMobject, mobject_to: VMobject, TheTransformation,time_scaler=1):
+        if len(mobject_from) != len(mobject_to):
+            raise ValueError("Length mismatch")
+
+        intermediate_to = copy.deepcopy(mobject_to)
+        intermediate_from = copy.deepcopy(mobject_from)
+
+        # resize by bigger object
+        for index in range(len(mobject_from)):
+            if mobject_from[index].width > intermediate_to[index].width:
+                mobject_to[index].stretch_to_fit_width(mobject_from[index].width)
+            elif mobject_from[index].width < intermediate_to[index].width:
+                intermediate_from[index].stretch_to_fit_width(intermediate_to[index].width)
+        mobject_to.arrange_submobjects()
+        intermediate_from.arrange_submobjects()
+        for index in range(len(mobject_from)):
+            mobject_to[index].become(intermediate_to[index])
+            intermediate_from[index].become(mobject_from[index])
+
+        mobject_to.move_to(intermediate_to)
+        intermediate_from.move_to(mobject_from)
+
+        first_position_shift = [mobject_from[index].animate.become(intermediate_from[index]) for index in
+                                range(len(mobject_from))]
+        the_transformation = [TheTransformation(mobject_from[index], mobject_to[index]) for index in
+                              range(len(mobject_from))]
+        last_position_shift = [mobject_to[index].animate.become(intermediate_to[index]) for index in
+                               range(len(mobject_from))]
+        self.play(AnimationGroup(first_position_shift),run_time=.25)
+        self.play(AnimationGroup(*the_transformation),run_time=.5)
+        self.play(AnimationGroup(FadeOut(mobject_from, run_time=0), last_position_shift),run_time=.25)
+
     def write_and_fade(self, *stuff, run_time=5, wait_time=10, group_transformations=(), **kwargs):
         """
         writes stuff taking a default of 5 seconds with kwargs passed to play and
@@ -35,6 +70,15 @@ class FormatedScene(Scene):
 
         self.wait(wait_time)
         self.play(FadeOut(stuff_group))
+
+
+
+
+
+
+
+
+
 
     def setup(self):
         """
