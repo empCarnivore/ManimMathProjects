@@ -13,7 +13,7 @@ class DerivativeLieAlgebra(FormatedScene):
         SLOPED_COLOR = CYAN1
         # endregion
 
-        title1=Title("Lie Algebra Differentiation")
+        title1=Title("Lie Algebra and Differentiation")
 
         math1 = VGroup()
         math1 += MathTex(r"{{[D,}}{{x}}{{]}} = {{D}} {{x}} - {{x}} {{D}}")
@@ -43,9 +43,13 @@ class DerivativeLieAlgebra(FormatedScene):
 
         math3 = VGroup()
         math3 += MathTex(r"{{[D,}}{{f(g)}}{{]}} = {{f}}{{'}}{{(}}{{g}}{{)}}{{[D,}}{{g}}{{]}} + { {{f}}{{''}}{{(g)}} \over 2 } {{[[D,}}{{g}}{{],}}{{g}}{{]}}+...")
-        math3 += MathTex(r"{{[D,}}{{g}}{{]}}{{g}}={{g}}{{[D,}}{{g}}{{]}} {{\implies}} {{[D,}}{{f(g)}}{{]}}={{f}}{{'}}{{(g)}}{{[D,}}{{g}}{{]}}")
+        math3 += MathTex(r"{{[D,}}{{g}}{{]}}{{g}} = {{g}}{{[D,}}{{g}}{{]}}}} {{\implies}} {{[D,}}{{f(g)}}{{]}}={{f}}{{'}}{{(g)}}{{[D,}}{{g}}{{]}}")
         math3 += MathTex(r"{{[D,}}{{x}}{{]}}=1 {{\implies}} {{[D,}}{{f(}}{{x}}{{)}}{{]}}={{f}}{{'}}({{x}})")
         math3 += MathTex(r"{{[D,}}{{x}}{{]}}=1 {{\implies}} {{[}}{{g(}}{{D}}{{)}}{{,}}{{x}}{{]}}={{g}}{{'}}{{(}}{{D}}{{)}}")
+        math3.next_to(title1,DOWN)
+        math3[1].next_to(math3[0],DOWN)
+        math3[2].next_to(math3[0], DOWN)
+        math3[3].next_to(math3[2], DOWN)
 
 
         math4 = VGroup()
@@ -54,13 +58,22 @@ class DerivativeLieAlgebra(FormatedScene):
         math4 += MathTex(r"{{D}}{{f(}}{{x}}{{)}}={{f}}{{'}}{{(}}{{x}}{{)}}")
         math4 += MathTex(r"{{D^2}}{{f(}}{{x}}{{)}}={{f}}{{''}}{{(}}{{x}}{{)}}")
         math4 += MathTex(r"{{D^3}}{{f(}}{{x}}{{)}}={{f}}{{'''}}{{(}}{{x}}{{)}}")
-        math4 += MathTex(r"{{g(}}D{{)}}{{f(}}{{x}}{{)}} \text{is legitimized}")
+        math4 += MathTex(r"{{g \Big(}}{{ {d \over dx} }}{{\Big)}}{{f(}}{{x}}{{)}} \text{ becomes legitimized}")
+        math4.next_to(title1,DOWN)
+        math4[1].next_to(math4[0],DOWN)
+        math4[3].next_to(math4[2],DOWN)
+        math4[4].next_to(math4[3], DOWN)
+
 
         math5 = VGroup()
-        math5 += MathTex(r" {{ad_D}} {{f(}}{{x}}{{)}} = {{f}}{{'}}{{(}}{{x}}{{)}} {{\iff}} {{Ad_{ \exp( D ) }}} {{f(}}{{x}}{{)}} = {{f(}}{{x}}+{{\left.1\left.}}{{)}}")
-        math5 += MathTex(r" {{ad_{ xD} }} {{f(}} {{x}} {{)}} } = {{x}}{{f}}{{'}}{{(}}{{x}}{{)}} {{\iff}} {{Ad_{ \exp(xD) } }} {{f(}}{{x}}{{)}} = {{f(}}{{e}}{{x}}{{)}}")
-        math5 += MathTex(r" {{ad_{ x\ln(x)D } }} {{f(}}{{x}}{{)}} = {{x}}{{\ln(}}{{x}}{{)}}{{f}}{{'}}{{(}}{{x}}{{)}} {{\iff}} {{Ad_{\exp( x\ln(x)D)} }} {{f(}}{{x}}{{)}} = {{f(}}{{x}}{{^e}}{{)}}")
-        math5 += MathTex(r" {{ad_{ h(x)D } }} {{f(}}{{x}}{{)}} = {{h(}}{{x}}{{)}}{{f}}{{'}}{{(}}{{x}}{{)}} {{\iff}} {{Ad_{ \exp( h(x)D)} }} {{f}}{{(}}{{x}}{{)}} = {{f(}}{{q(}}{{x}}{{\left.)\right.}}{{)}}")
+        math5 += MathTex(r"{{ad_D}} {{f(}}{{x}}{{)}} = {{f}}{{'}}{{(}}{{x}}{{)}} {{\iff}} {{Ad_{ \exp( D ) }}} {{f(}}{{x}}{{)}} = {{f(}}{{x}}+{{\left.1\left.}}{{)}}")
+        math5 += MathTex(r"{{ad_{ xD} }} {{f(}} {{x}} {{)}} } = {{x}}{{f}}{{'}}{{(}}{{x}}{{)}} {{\iff}} {{Ad_{ \exp(xD) } }} {{f(}}{{x}}{{)}} = {{f(}}{{e}}{{x}}{{)}}")
+        math5 += MathTex(r"{{ad_{ x\ln(x)D } }} {{f(}}{{x}}{{)}} = {{x}}{{\ln(}}{{x}}{{)}}{{f}}{{'}}{{(}}{{x}}{{)}} {{\iff}} {{Ad_{\exp( x\ln(x)D)} }} {{f(}}{{x}}{{)}} = {{f(}}{{x}}{{^e}}{{)}}")
+        math5 += MathTex(r"{{ad_{ h(x)D } }} {{f(}}{{x}}{{)}} = {{h(}}{{x}}{{)}}{{f}}{{'}}{{(}}{{x}}{{)}} {{\iff}} {{Ad_{ \exp( h(x)D)} }} {{f}}{{(}}{{x}}{{)}} = {{f(}}{{q(}}{{x}}{{\left.)\right.}}{{)}}")
+        math5.next_to(title1)
+        math5.arrange_submobjects(DOWN)
+
+
 
         mathvg=VGroup(*math1,*math2,*math2_5,*math3,*math4,*math5)
         deep_set_color_by_tex(mathvg, "x", DX_COLOR)
@@ -92,6 +105,15 @@ class DerivativeLieAlgebra(FormatedScene):
         deep_set_color_by_tex(mathvg, "ad", SLOPED_COLOR)
         deep_set_color_by_tex(mathvg, r"{d \over dx}", SLOPED_COLOR)
         deep_set_color_by_tex(mathvg, r" \Big] ", SLOPED_COLOR)
+
+        math3[0][12:23].set_color(GRAY)
+        math3[1][0:10].set_color(ORANGE)
+        math3[2][0:4].set_color(ORANGE)
+        math3[3][0:4].set_color(ORANGE)
+
+        math4[0][0:7].set_color(ORANGE)
+        math4[1][0:16].set_color(ORANGE)
+
 
         self.play(Write(title1))
         self.play(Write(math1[0]))
@@ -129,10 +151,46 @@ class DerivativeLieAlgebra(FormatedScene):
 
         self.wait()
 
-        self.play(FadeOut(math2_5[10]))
+        self.play(FadeOut(math2_5[10]),FadeOut(math1[1]))
 
+        self.play(Write(math3[0]))
+        self.wait()
 
+        self.play(Write(math3[1]))
+        self.wait()
 
+        self.play(FadeOut(math3[1]))
+        self.play(Write(math3[2]))
+        self.wait()
+
+        self.play(Write(math3[3]))
+        self.wait()
+
+        self.play(FadeOut(math3[0]),FadeOut(math3[2]),FadeOut(math3[3]))
+
+        self.play(Write(math4[0]))
+        self.wait()
+        self.play(Write(math4[1]))
+        self.wait()
+
+        self.play(FadeOut(math4[0]),FadeOut(math4[1]))
+
+        self.play(Write(math4[2]))
+        self.play(Write(math4[3]))
+        self.play(Write(math4[4]))
+        self.wait()
+
+        self.play(FadeOut(math4[2]),FadeOut(math4[3]),FadeOut(math4[4]))
+
+        self.play(Write(math4[5]))
+        self.wait()
+
+        self.play(FadeOut(math4[5]))
+
+        self.play(Write(math5[0]))
+        self.play(Write(math5[1]))
+        self.play(Write(math5[2]))
+        self.play(Write(math5[3]))
 
 if __name__ == '__main__':
     scene = DerivativeLieAlgebra()
