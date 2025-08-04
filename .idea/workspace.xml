@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d240e980-8a97-4fca-8bc3-b3889960da90" name="Changes" comment="Animated part of lie algebra section. And programmed new animation method. Transition by index.">
+    <list default="true" id="d240e980-8a97-4fca-8bc3-b3889960da90" name="Changes" comment="Finish rough draft of Lie Algebra section">
+      <change afterPath="$PROJECT_DIR$/Derivative/DerivativeMultiplication.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Derivative/DerivativeLieAlgebra.py" beforeDir="false" afterPath="$PROJECT_DIR$/Derivative/DerivativeLieAlgebra.py" afterDir="false" />
     </list>
@@ -48,6 +49,7 @@
   "keyToString": {
     "Python.AdvancedDerivativesAlgebra.executor": "Run",
     "Python.DerivativeLieAlgebra.executor": "Run",
+    "Python.DerivativeMultiplication.executor": "Run",
     "Python.DerivativesAlgebraic.executor": "Run",
     "Python.IntoToDerivativesScene.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -61,7 +63,7 @@
       <recent name="C:\Users\angel\PycharmProjects\ManimMathProjects\media\images" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.DerivativeLieAlgebra">
+  <component name="RunManager" selected="Python.DerivativeMultiplication">
     <configuration name="AdvancedDerivativesAlgebra" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ManimMathProjects" />
       <option name="ENV_FILES" value="" />
@@ -98,6 +100,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Derivative/DerivativeLieAlgebra.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="DerivativeMultiplication" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ManimMathProjects" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Derivative" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Derivative/DerivativeMultiplication.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -152,6 +176,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.DerivativeMultiplication" />
         <item itemvalue="Python.DerivativeLieAlgebra" />
         <item itemvalue="Python.AdvancedDerivativesAlgebra" />
         <item itemvalue="Python.DerivativesAlgebraic" />
@@ -327,7 +352,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754123900079</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Finish rough draft of Lie Algebra section">
+      <option name="closed" value="true" />
+      <created>1754186240052</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1754186240052</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -349,7 +382,8 @@
     <MESSAGE value="Section 4 start equations." />
     <MESSAGE value="Section 4 equations and coloring" />
     <MESSAGE value="Animated part of lie algebra section. And programmed new animation method. Transition by index." />
-    <option name="LAST_COMMIT_MESSAGE" value="Animated part of lie algebra section. And programmed new animation method. Transition by index." />
+    <MESSAGE value="Finish rough draft of Lie Algebra section" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish rough draft of Lie Algebra section" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

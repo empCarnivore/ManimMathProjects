@@ -54,7 +54,8 @@ class DerivativeLieAlgebra(FormatedScene):
 
         math4 = VGroup()
         math4 += MathTex(r"{{ad_D}}{{x}} = {{[D,}}{{x}}{{]}} {{\implies}} {{ad_D}} {{f(}}{{x}}{{)}} = {{ {d \over dx} }} {{f(}}{{x}}{{)}}={{f}}{{'}}{{(}}{{x}}{{)}}")
-        math4 += MathTex(r"{{ \Big[ {d \over dx},}} {{f(}} {{x}} {{)}} {{ \Big] }} = {{f}}{{'}}{{(}}{{x}}{{)}} {{\implies}} {{ad_D}} = {{D}}")
+        math4 += MathTex(r"{{ \Big[ {d \over dx},}} {{f(}} {{x}} {{)}} {{ \Big] }} = {{f}}{{'}}{{(}}{{x}}{{)}} {{\implies}} {{[ad_D,}}{{f(}}{{x}}{{)}}{{]}} = {{[D,}}{{f(}}{{x}}{{)}}{{]}}")
+        math4 += MathTex(r"\text{Assuming: } {{ad_D}}={{D}}")
         math4 += MathTex(r"{{D}}{{f(}}{{x}}{{)}}={{f}}{{'}}{{(}}{{x}}{{)}}")
         math4 += MathTex(r"{{D^2}}{{f(}}{{x}}{{)}}={{f}}{{''}}{{(}}{{x}}{{)}}")
         math4 += MathTex(r"{{D^3}}{{f(}}{{x}}{{)}}={{f}}{{'''}}{{(}}{{x}}{{)}}")
@@ -63,6 +64,8 @@ class DerivativeLieAlgebra(FormatedScene):
         math4[1].next_to(math4[0],DOWN)
         math4[3].next_to(math4[2],DOWN)
         math4[4].next_to(math4[3], DOWN)
+        math4[5].next_to(math4[4], DOWN)
+        math4[6].next_to(math4[2], DOWN)
 
 
         math5 = VGroup()
@@ -178,14 +181,15 @@ class DerivativeLieAlgebra(FormatedScene):
         self.play(Write(math4[2]))
         self.play(Write(math4[3]))
         self.play(Write(math4[4]))
-        self.wait()
-
-        self.play(FadeOut(math4[2]),FadeOut(math4[3]),FadeOut(math4[4]))
-
         self.play(Write(math4[5]))
         self.wait()
 
-        self.play(FadeOut(math4[5]))
+        self.play(FadeOut(math4[5]),FadeOut(math4[3]),FadeOut(math4[4]))
+
+        self.play(Write(math4[6]))
+        self.wait()
+
+        self.play(FadeOut(math4[6]),FadeOut(math4[2]))
 
         self.play(Write(math5[0]))
         self.play(Write(math5[1]))
