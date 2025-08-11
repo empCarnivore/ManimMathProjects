@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d240e980-8a97-4fca-8bc3-b3889960da90" name="Changes" comment="Derivative as Multiplication Section Rough Draft">
-      <change afterPath="$PROJECT_DIR$/Derivative/Introductions.py" afterDir="false" />
+    <list default="true" id="d240e980-8a97-4fca-8bc3-b3889960da90" name="Changes" comment="intros and stuff">
+      <change afterPath="$PROJECT_DIR$/Derivative/AdvancedDerivativeAlgebra.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Derivative/DerivativeLieAlgebra.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Derivative/DerivativesAlgebraic.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Derivative/IntroToDerivatives.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Derivative/Introductions.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Derivative/IntoToDerivativesScene.py" beforeDir="false" afterPath="$PROJECT_DIR$/Derivative/IntoToDerivatives.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Derivative/Introductions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Derivative/Introductions.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +56,7 @@
     "Python.DerivativeLieAlgebra.executor": "Run",
     "Python.DerivativeMultiplication.executor": "Run",
     "Python.DerivativesAlgebraic.executor": "Run",
+    "Python.IntoToDerivatives.executor": "Run",
     "Python.IntoToDerivativesScene.executor": "Run",
     "Python.Introductions.executor": "Run",
     "Python.VidIntro.executor": "Run",
@@ -64,29 +71,7 @@
       <recent name="C:\Users\angel\PycharmProjects\ManimMathProjects\media\images" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.VidIntro">
-    <configuration name="DerivativeLieAlgebra" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ManimMathProjects" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Derivative" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Derivative/DerivativeLieAlgebra.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.IntoToDerivatives">
     <configuration name="DerivativeMultiplication" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ManimMathProjects" />
       <option name="ENV_FILES" value="" />
@@ -123,6 +108,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Derivative/DerivativesAlgebraic.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="IntoToDerivatives" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ManimMathProjects" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Derivative" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Derivative/IntoToDerivatives.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -177,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.VidIntro" />
+        <item itemvalue="Python.IntoToDerivatives" />
         <item itemvalue="Python.Introductions" />
+        <item itemvalue="Python.VidIntro" />
         <item itemvalue="Python.DerivativesAlgebraic" />
         <item itemvalue="Python.DerivativeMultiplication" />
-        <item itemvalue="Python.DerivativeLieAlgebra" />
       </list>
     </recent_temporary>
   </component>
@@ -369,7 +376,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754349071984</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="intros and stuff">
+      <option name="closed" value="true" />
+      <created>1754713210985</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1754713210986</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -393,7 +408,8 @@
     <MESSAGE value="Animated part of lie algebra section. And programmed new animation method. Transition by index." />
     <MESSAGE value="Finish rough draft of Lie Algebra section" />
     <MESSAGE value="Derivative as Multiplication Section Rough Draft" />
-    <option name="LAST_COMMIT_MESSAGE" value="Derivative as Multiplication Section Rough Draft" />
+    <MESSAGE value="intros and stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="intros and stuff" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

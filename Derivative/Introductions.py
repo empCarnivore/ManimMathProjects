@@ -9,10 +9,9 @@ class Introductions(FormatedScene):
         title1 = Title(r"Goals:")
 
         text1 = VGroup()
-        text1 += Tex(r"Introduce Differentiation and other topics in a novel way", color=RED)
-        text1 += Tex(r"Derive Core and Complex behaviors", color=YELLOW)
-        text1 += Tex(r"Build Connections, Curiosity, and Intuition", color=GREEN)
-        text1 += Tex(r"Create a starting point for further research and videos",color=BLUE)
+        text1 += Tex(r"Introduce Differentiation in a Novel way", color=RED)
+        text1 += Tex(r"Grow Connections, Curiosity, and Intuition", color=GREEN)
+        text1 += Tex(r"Build Foundational and Derived Behaviors", color=BLUE)
 
         text1.arrange(DOWN, buff=.5)
         text1.next_to(title1, DOWN)

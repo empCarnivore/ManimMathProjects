@@ -5,7 +5,7 @@ from manim.utils.color.X11 import CYAN1
 from FormatedScene import *
 
 
-class IntroToDerivativesScene(FormatedScene):
+class IntroToDerivatives(FormatedScene):
     def construct(self):
         # region construction
 
@@ -152,7 +152,7 @@ class IntroToDerivativesScene(FormatedScene):
         math2 = VGroup()
         math2 += MathTex(r"{ {{\Delta y}} \over {{\Delta x}} } {{=}} {{m}}")
         math2 += MathTex(r" {{\Delta y}} {{=}} {{m}} {{\Delta x}}")
-        math2 += MathTex(r" {{dy}} {{=}} {{f'(x)}} {{dx}}")
+        math2 += MathTex(r" {{dy}} {{=}} {{y'(x)}} {{dx}}")
         # endregion
 
         # region math3 construct
@@ -219,5 +219,5 @@ class IntroToDerivativesScene(FormatedScene):
 
 
 if __name__ == '__main__':
-    scene = IntroToDerivativesScene()
+    scene = IntroToDerivatives()
     scene.render(True)
