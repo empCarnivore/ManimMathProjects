@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d240e980-8a97-4fca-8bc3-b3889960da90" name="Changes" comment="intros and stuff">
-      <change afterPath="$PROJECT_DIR$/Derivative/AdvancedDerivativeAlgebra.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Derivative/DerivativeLieAlgebra.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Derivative/DerivativesAlgebraic.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Derivative/IntroToDerivatives.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Derivative/Introductions.md" afterDir="false" />
+    <list default="true" id="d240e980-8a97-4fca-8bc3-b3889960da90" name="Changes" comment="Script and stuff. Minor edits.">
+      <change afterPath="$PROJECT_DIR$/Derivative/DerivativeMultiplication.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Derivative/IntoToDerivativesScene.py" beforeDir="false" afterPath="$PROJECT_DIR$/Derivative/IntoToDerivatives.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Derivative/Introductions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Derivative/Introductions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Derivative/DerivativeLieAlgebra.md" beforeDir="false" afterPath="$PROJECT_DIR$/Derivative/DerivativeLieAlgebra.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,21 +45,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.AdvancedDerivativesAlgebra.executor": "Run",
-    "Python.DerivativeLieAlgebra.executor": "Run",
-    "Python.DerivativeMultiplication.executor": "Run",
-    "Python.DerivativesAlgebraic.executor": "Run",
-    "Python.IntoToDerivatives.executor": "Run",
-    "Python.IntoToDerivativesScene.executor": "Run",
-    "Python.Introductions.executor": "Run",
-    "Python.VidIntro.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.AdvancedDerivativesAlgebra.executor&quot;: &quot;Run&quot;,
+    &quot;Python.DerivativeLieAlgebra.executor&quot;: &quot;Run&quot;,
+    &quot;Python.DerivativeMultiplication.executor&quot;: &quot;Run&quot;,
+    &quot;Python.DerivativesAlgebraic.executor&quot;: &quot;Run&quot;,
+    &quot;Python.IntoToDerivatives.executor&quot;: &quot;Run&quot;,
+    &quot;Python.IntoToDerivativesScene.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Introductions.executor&quot;: &quot;Run&quot;,
+    &quot;Python.VidIntro.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\angel\PycharmProjects\ManimMathProjects\Derivative" />
@@ -384,7 +379,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754713210986</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Script and stuff. Minor edits.">
+      <option name="closed" value="true" />
+      <created>1754881800378</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1754881800378</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -409,7 +412,8 @@
     <MESSAGE value="Finish rough draft of Lie Algebra section" />
     <MESSAGE value="Derivative as Multiplication Section Rough Draft" />
     <MESSAGE value="intros and stuff" />
-    <option name="LAST_COMMIT_MESSAGE" value="intros and stuff" />
+    <MESSAGE value="Script and stuff. Minor edits." />
+    <option name="LAST_COMMIT_MESSAGE" value="Script and stuff. Minor edits." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
