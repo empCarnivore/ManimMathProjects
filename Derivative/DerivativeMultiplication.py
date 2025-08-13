@@ -15,8 +15,9 @@ class DerivativeMultiplication(FormatedScene):
         title1=Title("Derivatives using Eigenvalues and Eigenfunctions")
 
         math1 = VGroup()
-        math1 += MathTex(r"{{D}}{{f}} = {{\gamma}}{{f}}")
-        math1 += MathTex(r"{{g(D)}}{{f}} = {{g(\gamma)}}{{f}}")
+        math1 += MathTex(r"{{D}}{{f}} = {{\lambda}}{{f}}")
+        math1 += MathTex(r"{{g(D)}}{{f}} = {{g(\lambda)}}{{f}}")
+        math1 += MathTex(r"{{f}}}={{\exp(\lambda x)}}")
         math1.arrange(DOWN)
 
         math2 = VGroup()
@@ -26,13 +27,13 @@ class DerivativeMultiplication(FormatedScene):
         math2 += MathTex(r"{{ E }} {{ = {1 \over 2m}}} {{ p ^2}} {{ + V \implies }} {{ i\hbar \partial_{t} }} {{ \psi }} {{ = \Big(-{\hbar^2 \over 2m} }} {{ \partial_{x} ^2}} {{ +V \Big) }} {{ \psi }}")
         math2 += MathTex(r"{{ E ^2}} {{ = }} {{ p^2}} {{ c^2 + \left(mc^2\right)^2 \implies - \hbar^2}} {{ \partial_{t} ^2}} {{ \psi }} {{= \Big( -\hbar^2}} {{ \partial_{x} ^2}} {{ c^2 + \left(mc^2\right)^2 \Big) }} {{ \psi }}")
         math2[0:3].arrange(DOWN)
-        math2[3].next_to(math2[2],DOWN)
+        math2[3].next_to(math2[1],DOWN)
 
         mathvg = VGroup(*math1,*math2)
 
         deep_set_color_by_tex(mathvg, r"f", FUNCTION_COLOR)
         deep_set_color_by_tex(mathvg,r"E",EIGENVALUE_COLOR)
-        deep_set_color_by_tex(mathvg, r"\gamma", EIGENVALUE_COLOR)
+        deep_set_color_by_tex(mathvg, r"\lambda", EIGENVALUE_COLOR)
         deep_set_color_by_tex(mathvg, r"p", EIGENVALUE_COLOR)
         deep_set_color_by_tex(mathvg, r"x", VARIABLE_COLOR)
         deep_set_color_by_tex(mathvg,r"D",DERIVATIVE_COLOR)
@@ -41,13 +42,15 @@ class DerivativeMultiplication(FormatedScene):
         deep_set_color_by_tex(mathvg, r"\partial", DERIVATIVE_COLOR)
         deep_set_color_by_tex(mathvg, r"\psi", FUNCTION_COLOR)
         deep_set_color_by_tex(mathvg, r"+", WHITE)
+        deep_set_color_by_tex(mathvg, r"\exp(\lambda x)", FUNCTION_COLOR)
 
         self.play(Write(title1))
         self.play(Write(math1[0]))
         self.play(Write(math1[1]))
+        self.play(Write(math1[2]))
 
         self.wait()
-        self.play(FadeOut(math1[0]),FadeOut(math1[1]))
+        self.play(FadeOut(math1[0]),FadeOut(math1[1]),FadeOut(math1[2]))
 
         self.play(Write(math2[0]),Write(math2[1]))
         self.play(Write(math2[2]))

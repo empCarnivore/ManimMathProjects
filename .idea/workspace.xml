@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d240e980-8a97-4fca-8bc3-b3889960da90" name="Changes" comment="Script and stuff. Minor edits.">
-      <change afterPath="$PROJECT_DIR$/Derivative/DerivativeMultiplication.md" afterDir="false" />
+    <list default="true" id="d240e980-8a97-4fca-8bc3-b3889960da90" name="Changes" comment="Script for lie algebra.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Derivative/DerivativeLieAlgebra.md" beforeDir="false" afterPath="$PROJECT_DIR$/Derivative/DerivativeLieAlgebra.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Derivative/DerivativeMultiplication.md" beforeDir="false" afterPath="$PROJECT_DIR$/Derivative/DerivativeMultiplication.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Derivative/DerivativeMultiplication.py" beforeDir="false" afterPath="$PROJECT_DIR$/Derivative/DerivativeMultiplication.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Derivative/IntroToDerivatives.md" beforeDir="false" afterPath="$PROJECT_DIR$/Derivative/IntoToDerivatives.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +67,7 @@
       <recent name="C:\Users\angel\PycharmProjects\ManimMathProjects\media\images" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.IntoToDerivatives">
+  <component name="RunManager" selected="Python.DerivativeMultiplication">
     <configuration name="DerivativeMultiplication" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ManimMathProjects" />
       <option name="ENV_FILES" value="" />
@@ -179,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.DerivativeMultiplication" />
         <item itemvalue="Python.IntoToDerivatives" />
         <item itemvalue="Python.Introductions" />
         <item itemvalue="Python.VidIntro" />
         <item itemvalue="Python.DerivativesAlgebraic" />
-        <item itemvalue="Python.DerivativeMultiplication" />
       </list>
     </recent_temporary>
   </component>
@@ -387,7 +388,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754881800378</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Script for lie algebra.">
+      <option name="closed" value="true" />
+      <created>1754969210429</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1754969210429</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -413,7 +422,8 @@
     <MESSAGE value="Derivative as Multiplication Section Rough Draft" />
     <MESSAGE value="intros and stuff" />
     <MESSAGE value="Script and stuff. Minor edits." />
-    <option name="LAST_COMMIT_MESSAGE" value="Script and stuff. Minor edits." />
+    <MESSAGE value="Script for lie algebra." />
+    <option name="LAST_COMMIT_MESSAGE" value="Script for lie algebra." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
