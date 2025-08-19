@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d240e980-8a97-4fca-8bc3-b3889960da90" name="Changes" comment="Script for lie algebra.">
+    <list default="true" id="d240e980-8a97-4fca-8bc3-b3889960da90" name="Changes" comment="DerivativeMultiplication.md script. Other minor changes.">
+      <change afterPath="$PROJECT_DIR$/Derivative/media/videos/1080p60/Introductions.wav" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Derivative/DerivativeMultiplication.md" beforeDir="false" afterPath="$PROJECT_DIR$/Derivative/DerivativeMultiplication.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Derivative/DerivativeMultiplication.py" beforeDir="false" afterPath="$PROJECT_DIR$/Derivative/DerivativeMultiplication.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Derivative/IntroToDerivatives.md" beforeDir="false" afterPath="$PROJECT_DIR$/Derivative/IntoToDerivatives.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Derivative/DerivativeLieAlgebra.md" beforeDir="false" afterPath="$PROJECT_DIR$/Derivative/DerivativeLieAlgebra.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Derivative/IntoToDerivatives.md" beforeDir="false" afterPath="$PROJECT_DIR$/Derivative/IntoToDerivatives.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Derivative/Introductions.md" beforeDir="false" afterPath="$PROJECT_DIR$/Derivative/Introductions.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +64,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\angel\PycharmProjects\ManimMathProjects\Derivative\media\videos\1080p60" />
+      <recent name="C:\Users\angel\PycharmProjects\ManimMathProjects\Derivative\media\videos\1080p60\partial_movie_files" />
       <recent name="C:\Users\angel\PycharmProjects\ManimMathProjects\Derivative" />
       <recent name="C:\Users\angel\PycharmProjects\ManimMathProjects\media\images" />
     </key>
@@ -396,7 +399,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754969210429</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="DerivativeMultiplication.md script. Other minor changes.">
+      <option name="closed" value="true" />
+      <created>1755053111719</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1755053111719</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -423,7 +434,8 @@
     <MESSAGE value="intros and stuff" />
     <MESSAGE value="Script and stuff. Minor edits." />
     <MESSAGE value="Script for lie algebra." />
-    <option name="LAST_COMMIT_MESSAGE" value="Script for lie algebra." />
+    <MESSAGE value="DerivativeMultiplication.md script. Other minor changes." />
+    <option name="LAST_COMMIT_MESSAGE" value="DerivativeMultiplication.md script. Other minor changes." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

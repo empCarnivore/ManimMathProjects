@@ -70,7 +70,7 @@ It shows that for any domain transform there is a differential operator with sim
 All the neat things you can do with calculus you can do with these alternative calculus.\
 It also allows you to create a mathematics of domain transformations.\
 So instead of differential equations, you can have domain transform equations.\
-You can define summation, continuous recursion, study tetration, and even look at fractures from a new perspective.\
-All fun an fascinating stuff. 
+You can define summation, continuous recursion, tetration, and even look at fractals from a new perspective.\
+All fun and fascinating stuff. 
 
 
