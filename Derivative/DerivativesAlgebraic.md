@@ -7,7 +7,6 @@ If you substitute each equation's change in domain form with their change of ran
 You get a product of the two linear equations. Then just expand it and gather like terms.\
 There then exist three terms. One constant with h. One linear with h. And the other is quadratic.\
 The linear term is tied to the derivative as we defined earlier.\
-You can sort of just match the h from the original and the new equation. And simplify.\
 
 The chain rule is slightly more complicated to explain.\
 Given two functions f and g.\
@@ -19,4 +18,4 @@ Assuming h is small enough.\
 Then, you can substitute in this change in domain form with a change in range form.\
 The resulting equation kind of looks like a series russian nesting dolls multiplied or chained together in a line.\
 Where each outermost doll is the derivative. While the inner dolls preserve there form.\
-The then you just have to pull out the term tied to h like before.
+Then you just have to pull out the term tied to h like before.
