@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d240e980-8a97-4fca-8bc3-b3889960da90" name="Changes" comment="RENAME spelling fix, Minor edits with script, Some voice recordings">
+    <list default="true" id="d240e980-8a97-4fca-8bc3-b3889960da90" name="Changes" comment="Script edits and more on voice-overs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Derivative/AdvancedDerivativeAlgebra.md" beforeDir="false" afterPath="$PROJECT_DIR$/Derivative/AdvancedDerivativeAlgebra.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Derivative/DerivativesAlgebraic.md" beforeDir="false" afterPath="$PROJECT_DIR$/Derivative/DerivativesAlgebraic.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Derivative/media/videos/1080p60/DerivativesAlgebraic.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Derivative/media/videos/1080p60/DerivativesAlgebraic.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Derivative/DerivativeLieAlgebra.md" beforeDir="false" afterPath="$PROJECT_DIR$/Derivative/DerivativeLieAlgebra.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -422,11 +420,18 @@
       <option name="project" value="LOCAL" />
       <updated>1755909191446</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Script edits and more on voice-overs">
+      <option name="closed" value="true" />
+      <created>1755996668933</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1755996668933</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add some starting files for video creation and organization." />
     <MESSAGE value="I created a rough draft of the script for the zero division video." />
     <MESSAGE value="New Project Derivative video. Start animation with  animatable plot of zoomed in f(x)=x**2 at x=.5." />
     <MESSAGE value="Zoom Into Graph." />
@@ -451,7 +456,8 @@
     <MESSAGE value="DerivativeMultiplication.md script. Other minor changes." />
     <MESSAGE value="Some edits to script, save videos to hub, add voice over to hub." />
     <MESSAGE value="RENAME spelling fix, Minor edits with script, Some voice recordings" />
-    <option name="LAST_COMMIT_MESSAGE" value="RENAME spelling fix, Minor edits with script, Some voice recordings" />
+    <MESSAGE value="Script edits and more on voice-overs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Script edits and more on voice-overs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

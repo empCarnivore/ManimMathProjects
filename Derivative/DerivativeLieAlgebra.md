@@ -7,7 +7,7 @@ Lie algebra an area of math that brings into focus the commutator.\
 The commutator measures the degree in which the order you multiply two objects together matters.
 
 The commutator of D and x is D times x minus x times D.\
-Not here that although I have heavily implied that D and x are related to differentiation and the object x,\
+Note here that although I have heavily implied that D and x are related to differentiation and the object x,\
 I have yet to define them as so.\
 I won't do that till later.
 
@@ -27,9 +27,9 @@ This is because we are working in an algebra where A times B may not equal B tim
 I find it amazing that, linearity and the product rule are within the definition of the commutator without ever mentioning slopes or derivatives or tiny changes.\
 It mirrors that behavior from entirely different core behaviors.
 
-Next we have an equation I'm not even going to bother deriving,\
-but it's derivation involves the product rule from before\
-This equation looks kinda like the difference expansion from the taylor series section.\
+The chain rule in LieAlgebra is more complicated.\
+Here is a more general equation.\
+This equation, although unrelated, kinda looks like the difference expansion from the taylor series section.\
 However, unlike that difference expansion,\
 The derivatives are on the far left of each product instead of right,\
 and instead of powers of change in g. We have a D repeated recursed in commutators of g.\
@@ -43,10 +43,9 @@ Then, it becomes the chain rule.\
 And if you define the commutator of D and x to be 1,\
 then you essentially have defined an alternative to the derivative.
 
-This result is one of the many things about math that I love.\
-You have to different parts of math with different core definitions,\
-Yet out pops the same result.\
-Almost like how PI keeps reappearing in random places of math.
+This is one of the many things I love about math.\
+In entirely unrelated areas of math, equivalent results can often appear.
+Almost like how PI keeps reappearing in random places.
 
 Another thing to note\
 Is that there is a symmetry in the result that also applies with D.\
@@ -58,9 +57,11 @@ the adjoint D concatenated with f(x) is equal to the derivative of f(x).
 
 An interesting thing about this is the adjoint of D actually behaves the same as D when in a commutator.\
 If you so choose, you can define D to be the adjoint of D. \
-That way multiplying by D is equivalent to differentiation.\
+This may be odd and super abstract,\
+but doing so allows the multiplication of D to be equivalent to differentiation.
 And you can use the commutator to algebraically manipulate equations swap the orders of multiplication.\
-This legitimized putting differential operators in functions.\
+This legitimizes all sorts of fun and powerful things,\
+like putting differential operators in functions.\
 At least as long as it is multiplied by a differentiable object.
 
 The final reason why I'm introducing a lie algebra definition of differentiation,\
