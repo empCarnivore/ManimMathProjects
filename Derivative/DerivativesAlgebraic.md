@@ -16,6 +16,8 @@ The key insite here is implied by how I colored these equations,\
 It's that this new form if g is also approximately a linear change in domain form for f.\
 Assuming h is small enough.\
 Then, you can substitute in this change in domain form with a change in range form.\
-The resulting equation kind of looks like a series russian nesting dolls multiplied or chained together in a line.\
-Where each outermost doll is the derivative. While the inner dolls preserve there form.\
-Then you just have to pull out the term tied to h like before.
+Then you just have to pull out the term tied to h like before.\
+
+When there are more functions nested,\
+The resulting equation kind of looks like a series of Russian nesting dolls multiplied or chained together in a line.\
+Where the outermost dolls each hold a prime. While the inner dolls preserve there form.\
