@@ -49,7 +49,7 @@ class HAlgebra(FormatedScene):
         self.play(Write(the_core[0]))
         self.wait()
 
-        self.add(the_source[0])
+        self.play(Write(the_source[0]))
         self.wait()
 
         self.play(Write(the_guide[0]))
