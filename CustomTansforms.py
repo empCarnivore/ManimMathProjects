@@ -1,9 +1,3 @@
-'''
-This is modified from TransformByGlyphMap.
-Do not redistribute or commercialize as mine.
-It is not mine. It belongs to TheMathematicFanatic.
-'''
-
 from MF_Tools import *
 from MF_Tools.dual_compatibility import *
 from typing_extensions import override
