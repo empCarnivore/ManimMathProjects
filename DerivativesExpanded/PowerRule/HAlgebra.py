@@ -55,6 +55,7 @@ class HAlgebra(FormatedScene):
         self.play(Write(the_guide[0]))
         self.wait()
 
+
         self.play(TransformByIndexMap(the_source[0],the_source[1],(range(4,11),range(4,21))))
         self.wait()
 

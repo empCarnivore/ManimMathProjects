@@ -25,7 +25,7 @@ def deep_set_color_by_tex(your_object,text,your_color):
 
 class FormatedScene(Scene):
 
-    @deprecated
+    @deprecated("This has been depreciated. I now use TransformByIndexMap from CustomTransforms.")
     def transform_arranged_group_by_matching_index(self,mobject_from: VMobject, mobject_to: VMobject, TheTransformation,time_scaler=1):
         if len(mobject_from) != len(mobject_to):
             raise ValueError("Length mismatch")
