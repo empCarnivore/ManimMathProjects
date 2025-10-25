@@ -25,8 +25,6 @@ class TransformByIndexMap(TransformByGlyphMap):
         printing=False,
         **kwargs):
 
-        print(mobA_submobject_index)
-
         super().__init__(
             mobA,
             mobB,
