@@ -97,8 +97,6 @@ class HAlgebra(FormatedScene):
 
 
 
-
-
         # endregion
 
 
