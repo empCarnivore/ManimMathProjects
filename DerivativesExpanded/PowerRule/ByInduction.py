@@ -26,7 +26,7 @@ class HAlgebra(FormatedScene):
 
         # region color
         x_color = RED
-        D_color = PINK
+        D_color = PURPLE
         n_color = BLUE
 
         deep_set_color_by_tex(math_vg, r"x", x_color)
@@ -54,10 +54,15 @@ class HAlgebra(FormatedScene):
         self.play(TransformByIndexMap(proof_by_induction[0],proof_by_induction[1], ([9,10],[11,12]), ([],[9,10]) ))
         self.wait()
 
+        self.play(FadeOut(lie_algebra[0]))
+        self.wait()
+
         self.play(TransformByIndexMap(proof_by_induction[1],proof_by_induction[2], (range(1,7),[1,2]), ([7],[3]), ([8],[]), ([13],[]), ([9,14,15,16],range(4,7)), ([10],[7]), ([11,12],[8,9]), (range(14,17),range(10,13)) ))
         self.wait()
 
         self.play(Write(finish[0]))
+        self.wait()
+
         self.play(Write(finish[1]))
         self.wait()
 
