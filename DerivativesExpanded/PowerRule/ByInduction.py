@@ -1,7 +1,7 @@
 from FormatedScene import *
 
 
-class HAlgebra(FormatedScene):
+class ByInduction(FormatedScene):
     def construct(self):
         # region initialize
         title = Title("Power Rule with Non-Commutative Algebra")
@@ -65,11 +65,10 @@ class HAlgebra(FormatedScene):
 
         self.play(Write(finish[1]))
         self.wait()
-
         # endregion
 
 
 
 if __name__ == '__main__':
-    scene = HAlgebra()
+    scene = ByInduction()
     scene.render(True)
