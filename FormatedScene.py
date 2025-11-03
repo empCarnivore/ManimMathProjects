@@ -91,12 +91,12 @@ class FormatedScene(Scene):
         involved before the construct method is called.
         """
         script_dir = os.path.dirname(__file__)  # <-- absolute dir the script is in
-        rel_path = "media/images/BackGround2.jpg"
+        rel_path = "media/images/BackGround6.jpg"
         abs_file_path = os.path.join(script_dir, rel_path)
 
         background = ImageMobject(abs_file_path)
         background.height = self.camera.frame_height
         background.width = self.camera.frame_width
-        background.set_opacity(.15)
+        background.set_opacity(.60)
         self.add(background)
         return super().setup()
