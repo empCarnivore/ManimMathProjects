@@ -18,6 +18,7 @@ class ByInduction(FormatedScene):
         proof_by_induction += MathTex(r"{{ D }}{{ x^{ }}{{n} }}{{=}}{{x^{ }}{{n}} - 1} {{+}}{{x}}{{D}}{{x^{ }}{{n}} - 1}")
 
         finish = VGroup()
+        finish += MathTex(r"({{x^{ }}{{n}} })' {{=}}{{x^{ }}{{n}} - 1} + {{x}}({{x^{ }}{{n}} - 1} {{)'}}")
         finish += MathTex(r"{{n}}{{x^{ }}{{n}} - 1} {{=}}{{x^{ }}{{n}} - 1} + {{x}}{{(n-1)}}{{x^{ }}{{n}} - 2}")
         finish += MathTex(r"{{n}} = 1 \implies f'({{x}}) = 1")
 
@@ -39,7 +40,8 @@ class ByInduction(FormatedScene):
         lie_algebra.next_to(the_core,DOWN)
         proof_by_induction.next_to(lie_algebra,DOWN)
         finish[0].next_to(proof_by_induction,DOWN)
-        finish[1].next_to(finish[0], DOWN)
+        finish[1].next_to(proof_by_induction, DOWN)
+        finish[2].next_to(finish[0], DOWN)
         # endregion
 
         # region animations
@@ -62,8 +64,10 @@ class ByInduction(FormatedScene):
 
         self.play(Write(finish[0]))
         self.wait()
+        self.play(TransformByIndexMap(finish[0], finish[1],([0],[]),([3],[]),(range(1,3),range(0,4)),([9],[]), (range(10,13),range(9,13)),([13],[]) ))
+        self.wait()
 
-        self.play(Write(finish[1]))
+        self.play(Write(finish[2]))
         self.wait()
         # endregion
 
