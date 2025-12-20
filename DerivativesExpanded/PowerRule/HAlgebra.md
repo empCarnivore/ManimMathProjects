@@ -1,6 +1,3 @@
-What is the derivative of x to the power of n?\
-The solution to this problem is called the power rule.
-
 How might we solve this using the small changes method.\
 First add h to the input x. Expand the power into a product.\
 And then pick out each term that is linear with h and add them together.

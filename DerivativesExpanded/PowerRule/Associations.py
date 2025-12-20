@@ -29,7 +29,7 @@ class Associations(FormatedScene):
         power_rule_iter.arrange(DOWN)
         power_rule_iter.next_to(power_rule_equation,DOWN)
         taylor_series[0].next_to(title,DOWN)
-        taylor_series[1].next_to(title,DOWN)
+        taylor_series[1].next_to(taylor_series[0],DOWN)
         taylor_series[2].next_to(taylor_series[1],DOWN)
 
         # region color
@@ -62,9 +62,6 @@ class Associations(FormatedScene):
         self.wait()
 
         self.play(Write(taylor_series[0]))
-        self.wait()
-
-        self.play(FadeOut(taylor_series[0]))
         self.wait()
 
         self.play(Write(taylor_series[1]))
