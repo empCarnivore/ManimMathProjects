@@ -13,6 +13,9 @@ class Associations(FormatedScene):
         power_rule_iter += MathTex(r"x \leftarrow { x^2 \over 2 }")
         power_rule_iter += MathTex(r"{ x^2 \over 2 } \leftarrow { x^3 \over 6 }")
 
+        power_rule_higher = VGroup()
+        power_rule_higher += MathTex(r"{d^m \over d{{x}} ^m} f( {{x}} ) = { {{ x^{ }}{{ n - m} }} \over ( {{ n - m }} )! }")
+
         taylor_series = VGroup()
         SHARED=r"{ {{h}}{{ ^{a} }} \over {{a}}! }  f{{ ^{(b)} }} ( {{x}} )"
         taylor_series += MathTex(r"f({{x}}+{{h}}) = \sum_{ {{a}}={{b}}={{c}} | {{c}} \in \mathbb{Z} }",
@@ -23,11 +26,12 @@ class Associations(FormatedScene):
                                  SHARED)
 
 
-        math_vg = VGroup(*power_rule_equation, *taylor_series)
+        math_vg = VGroup(*power_rule_equation,*power_rule_higher, *taylor_series)
 
         power_rule_equation.next_to(title,DOWN)
         power_rule_iter.arrange(DOWN)
         power_rule_iter.next_to(power_rule_equation,DOWN)
+        power_rule_higher.next_to(power_rule_equation[0],DOWN)
         taylor_series[0].next_to(title,DOWN)
         taylor_series[1].next_to(taylor_series[0],DOWN)
         taylor_series[2].next_to(taylor_series[1],DOWN)
@@ -51,14 +55,17 @@ class Associations(FormatedScene):
         self.play(Write(power_rule_equation[0]))
         self.wait()
 
-        for i in power_rule_iter:
-            self.play(Write(i))
+        for text in power_rule_iter:
+            self.play(Write(text))
             self.wait()
 
-        self.play(FadeOut(power_rule_equation[0]))
+        self.play(FadeOut(power_rule_iter))
         self.wait()
 
-        self.play(FadeOut(power_rule_iter))
+        self.play(Write(power_rule_higher[0]))
+        self.wait()
+
+        self.play(FadeOut(power_rule_equation[0]),FadeOut(power_rule_higher[0]))
         self.wait()
 
         self.play(Write(taylor_series[0]))

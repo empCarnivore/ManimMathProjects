@@ -15,6 +15,9 @@ class HAlgebra(FormatedScene):
         the_source += MathTex(r"f( {{ x }} + {{ h }} ) = {{ ( }}{{ x }} + {{ h }}{{ )^{ }}{{ n } }}")
         the_source += MathTex(r"f( {{ x }} + {{ h }} ) = {{ ( }}{{ x }} + {{ h }}{{ ) }}{{ ( }}{{ x }} + {{ h }}{{ ) }} ... ( {{ x }} + {{ h }}{{ ) }} \text{ | n times}")
 
+        derivation_origin = VGroup()
+        derivation_origin += MathTex(r"f( {{ x }} + {{ h }} ) \approx f({{x}}) + {{h}} f'({{x}})")
+
         the_guide = VGroup()
         the_guide += MathTex(r"{{ h }}f'({{ x }}) = {{ ? }}")
         the_guide += MathTex(r"{{ h }}f'({{ x }}) = {{ h }}{{ x^{ }}{{ n }} - 1} + {{ ... }}")
@@ -23,7 +26,7 @@ class HAlgebra(FormatedScene):
         the_guide += MathTex(r"{{ h }}f'({{ x }}) = {{ n }}{{ h }}{{ x^{ }}{{ n }} - 1}")
         the_guide += MathTex(r"f'({{ x }}) = {{n}}{{ x^{ }}{{n}} - 1}")
 
-        math_vg = VGroup(*the_core, *the_source, *the_guide)
+        math_vg = VGroup(*the_core,*derivation_origin, *the_source, *the_guide)
         # endregion
 
         # region color
@@ -32,14 +35,16 @@ class HAlgebra(FormatedScene):
         n_color = BLUE
 
         deep_set_color_by_tex(math_vg,r"x",x_color)
+        deep_set_color_by_tex(math_vg, r"\approx", WHITE)
         deep_set_color_by_tex(math_vg,r"h",h_color)
         deep_set_color_by_tex(math_vg,r"n",n_color)
         # endregion
 
         # region arrange
-        the_core.next_to(title,DOWN)
-        the_source.next_to(the_core,DOWN)
-        the_guide.next_to(the_source,DOWN)
+        the_core.next_to(title,2*DOWN)
+        derivation_origin.next_to(the_core,2*DOWN)
+        the_source.next_to(derivation_origin,2*DOWN)
+        the_guide.next_to(the_source, 2*DOWN)
         # endregion
 
         # region animation
@@ -49,8 +54,12 @@ class HAlgebra(FormatedScene):
         self.play(Write(the_core[0]))
         self.wait()
 
+        self.play(Write(derivation_origin[0]))
+        self.wait()
+
         self.play(Write(the_source[0]))
         self.wait()
+
 
         self.play(Write(the_guide[0]))
         self.wait()
@@ -80,8 +89,8 @@ class HAlgebra(FormatedScene):
         self.play(TransformByIndexMap(the_guide[2], the_guide[3],([12],range(12,18 ) ) ))
         self.wait()
 
-        self.play(FadeOut(the_source[1]))
-        self.wait()
+        #self.play(FadeOut(the_source[1]))
+        #self.wait()
 
         self.play(TransformByIndexMap(the_guide[3], the_guide[4],(range(4,18),range(4,9))))
         self.wait()

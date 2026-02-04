@@ -7,6 +7,8 @@ x to the power of two over two to x.\
 And so on.\
 
 This forms a chain of relations.\ 
+And differentiation allows you to climb down this chain.\
+And this equation works nicely with high order and even fractional derivative\
 These powers are foundational to higher order mathematics. They appear alot.\
 For example they are important to the taylor series.
 
@@ -23,7 +25,7 @@ And I think it's important to understand this from the perspective of the taylor
 So:\
 Differentiating by x in this form increases "b" by one.\
 Differentiating by h in this form decreases "a" by one.\
-Since both "a" and "b" were increments of the integers, these two transformations are actually equal.
+Since both "a" and "b" are increments of the integers, these two transformations are actually equal.
 In both "b" ends up as one more than "a".
 
 
