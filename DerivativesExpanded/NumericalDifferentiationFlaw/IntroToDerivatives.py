@@ -99,7 +99,7 @@ class IntroToDerivatives(FormatedScene):
         math3 += MathTex(r"a = "+str(a))
 
         math4 = VGroup()
-        math4 += MathTex(r"f(a) = "+str(d_f_a))
+        math4 += MathTex(r"y'(a) = "+str(d_f_a))
 
 
         mathvg = VGroup(*math1, *math2,*math3,*math4)

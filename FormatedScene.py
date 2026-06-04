@@ -75,15 +75,6 @@ class FormatedScene(Scene):
         self.wait(wait_time)
         self.play(FadeOut(stuff_group))
 
-
-
-
-
-
-
-
-
-
     def setup(self):
         """
         This is meant to be implemented by any scenes which
