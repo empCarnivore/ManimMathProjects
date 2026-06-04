@@ -1,4 +1,5 @@
 1. Numerical Differentiation Flaw
+    Derivative using Complex Numbers
 2. Polynomial Multiplication By Counting
 3. Power Rule
 4. Power Rule for xD
